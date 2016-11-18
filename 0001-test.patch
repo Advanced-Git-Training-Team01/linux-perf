@@ -1,0 +1,22 @@
+From e99c034de17154cbf19b339d61b705525b64393f Mon Sep 17 00:00:00 2001
+From: Taeung Song <treeze.taeung@gmail.com>
+Date: Thu, 10 Nov 2016 08:14:58 +0900
+Subject: [PATCH] test
+
+Signed-off-by: Taeung Song <treeze.taeung@gmail.com>
+---
+ tools/perf/Documentation/tips.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/tools/perf/Documentation/tips.txt b/tools/perf/Documentation/tips.txt
+index 5950b5a..eba4b2f 100644
+--- a/tools/perf/Documentation/tips.txt
++++ b/tools/perf/Documentation/tips.txt
+@@ -28,3 +28,4 @@ To change sampling frequency to 100 Hz: perf record -F 100
+ See assembly instructions with percentage: perf annotate <symbol>
+ If you prefer Intel style assembly, try: perf annotate -M intel
+ For hierarchical output, try: perf report --hierarchy
++Taeung song
+-- 
+2.7.4
+
